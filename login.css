@@ -1,0 +1,108 @@
+body {
+    background-image: url("Theatre.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  header {
+    background-color: rgb(22, 22, 21);
+    color:#c02222d0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    text-align: center;
+    margin: 0;
+  }
+ /* nav ul { */
+    /* list-style-type: none; */
+    /* margin: 0; */
+    /* padding: 0; */
+ /* } */
+ /* nav ul li { */
+    /* display: inline; */
+ /* } */
+ /* nav ul li a { */
+    /* display: inline-block; */
+    /* padding: 10px 20px; */
+    /* text-decoration: none; */
+    /* color:#c02222d0; */
+    /* border: 1px solid #ccccccc9; */
+    /* border-radius: 5px; */
+    /* margin-right: 10px; */
+ /* } */
+ /* nav ul li a:hover { */
+    /* background-color: #f0f0f0; */
+ /* } */
+ main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .login-container{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    opacity: 80%;
+  }
+  .login-container h2{
+    text-align: center;
+  }
+  .login-form{
+    margin-top: 30px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-container::after{
+    content: "*";
+    color: red;
+    margin-left: 3px;
+
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c02222d0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .forgot-password{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .forgot-password a{
+    color: #999;
+    text-decoration: none;
+  }
+  .register-here{
+    text-align: center;
+    margin-top: 10px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

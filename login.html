@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header>
+      <h1>VV Theatre</h1>
+      <!-- <nav> -->
+      <!-- <ul> -->
+      <!-- <li><a href="index.html">Home</a></li> -->
+      <!-- <li><a href="login.html">Login</a></li> -->
+      <!-- <li><a href="reg.html">Register</a></li> -->
+      <!-- <li><a href="about.html">About</a></li> -->
+      <!-- <li><a href="Contact.html">Contact</a></li> -->
+      <!-- </ul> -->
+      <!-- </nav> -->
+    </header>
+    <main>
+      <div class="login-container">
+        <h2>Login</h2>
+        <!-- action="process-register.php" -->
+        <form class="login-form" method="post" id="loginform">
+          <div class="form-group">
+            <label for="loginUsername">Username</label>
+            <input
+              type="text"
+              id="loginUsername"
+              placeholder="username"
+              require
+            />
+            <div class="form-container">
+              <label for="loginPassword">Password:</label>
+              <input type="password" id="loginPassword" placeholder="password"
+              require= />
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit">LOGIN</button>
+          </div>
+
+          <div class="forgot-password"></div>
+          <a href="forgot-password.html">forgot-password?</a> <br /><br />
+
+          <!-- <a href="reg.html">New user</a> -->
+        </form>
+      </div>
+
+      <div class="register-here">
+        <button type="submit" onclick="goToPage1()">Register here</button>
+      </div>
+
+      <script>
+        function goToPage1() {
+          window.location.href = "reg.html"; // Redirects to page1.html
+        }
+      </script>
+    </main>
+    <footer>&copy; Book your ticket now!</footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
